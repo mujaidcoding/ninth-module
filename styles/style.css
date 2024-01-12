@@ -11,9 +11,9 @@
   border-radius: 0.5rem;
   background: #ff900e;
   color: #fff;
-  text-align: center;
   font-size: 1.25rem;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* Header Style */
@@ -67,4 +67,33 @@ nav li a {
 
 .banner-description {
   color: #727272;
+}
+
+.banner img {
+  margin-top: 1.4rem;
+  width: 100%;
+}
+
+/* Responsive Area */
+/* Mobile Devices */
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 1.4rem;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* Medium Devices  */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+  }
+  nav {
+    flex-direction: column;
+  }
 }
